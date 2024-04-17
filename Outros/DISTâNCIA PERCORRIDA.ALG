@@ -1,18 +1,18 @@
-Algoritmo "Hipotenusa"
-//  
-//  
+Algoritmo "Distancia_percorrida"
 
 Var
-  a, b, c: real
+con_med, distancia, total_com: real
 
 Inicio
+escreval("Informe a dist√¢ncia: ")
+leia(distancia)
 
- escreva("Digite o valor de b: ")
- leia(b)
- escreva("Digite o valor de c: ")
- leia(c)
- 
- a := RAIZQ ( b*b + c*c )//C·lculo da hipotenusa utilizando a FUN«√O RAIZQ,
- escreval("O valor da hipotenusa È: ", a:2:2)
- 
+escreval("Informe a quantidade de combust√≠vel: ")
+leia(total_com)
+
+con_med <- distancia / total_com
+
+escreval("O consumo m√©dio √©: ", con_med, " KM/L")
+
+
 Fimalgoritmo
